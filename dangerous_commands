@@ -1,4 +1,4 @@
-{
+
 "fdisk edit" : "^\s*fdisk\s+(([^-[:blank:]]+\s*)|([^-]*-[^lv].*))$",
 "mysql password on command line" : "^\s*mysql(dump)?\s+.*-p([^[:blank:]]+).*$"
-}
+
