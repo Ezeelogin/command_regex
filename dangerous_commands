@@ -1,4 +1,9 @@
 
 "fdisk edit" : "^\s*fdisk\s+(([^-[:blank:]]+\s*)|([^-]*-[^lv].*))$",
 "mysql password on command line" : "^\s*mysql(dump)?\s+.*-p([^[:blank:]]+).*$"
+"mkfs" : "^\s*mkfs(.ext\d)?\s+.*$"
+"rm -rf /" : "^\s*rm\s+((-rf)|(-fr)|(-f\s+--recursive)|(--recursive\s+-f)|(--force\s+-r)|(-r\s+--force)|(--recursive\s+--force)|(--force\s+--recursive))\s+/(home)?\s*$"
+"any_command > /dev/sda" : "^.*\s*>\s*/dev/sda\d*\s*$"
+"mv / /dev/null" : "^\s*mv\s+/\s+/dev/null\s*$"
+"wget url -O- | sh" : "^\s*wget\s+.+\s*\|\s*sh\s*$"
 
